@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    box-sizing:border-box;
+  }  
+  .header-logo img{ 
+    display: flex;
+    margin: 1.5rem auto;
+    width: 80%;
+  }
+  .container{
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 10vh auto;
+    height: 55vh;
+    width: 40vw;
+    background-color: aliceblue;
+  }
+  .header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin: 2vh auto  ;
+  }
+  .text{
+    color:#000538;
+    font-size: 4.5vh;
+    font-weight: 700;;
+  }
+  .underline{
+    width: 9vw;
+    height: 6px;
+    background-color: #000538;
+    border-radius: 9px;
+  }
+  .inputs{
+    display: flex;
+    flex-direction: column;
+    margin:0 0.6rem;
+    gap: 30px;
+  }
+  .input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 70%;
+    height: 6vh;
+    background:#d8d8d8;
+    border-radius: 6px;
+    
+  }
+  .input img{
+    margin: 0 3vw;
+  }
+  .input input{
+    height: 5vh;
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 0.8rem;
+  }
+  .forgot-password{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top:20px;
+    color: #797979;
+    font-size: 1.7vh;
+  }
+  .forgot-password a{
+    color: #0057a7;
+    cursor: pointer;
+    font-weight: 700;
+  }
+  .submit-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 2vh;
+
+  }
+  .submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #0057a7;
+    border-radius: 50px;
+    width: 14vw;
+    height: 6vh;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .gray{
+    background-color: #d8d8d8;
+    color: #676767;
+  }
+  @media only screen and (max-width: 670px){
+    .container{
+        width: 65%;
+        height: 55%;
+    }
+   
+}
+@media only screen and (max-height: 670px){
+    .container{
+        width: 50%;
+        height: 55%;
+    }
+}
+@media only screen and (min-width:800px ){
+    .container{
+      width: 45%;
+    }
+}
+
+
+  
